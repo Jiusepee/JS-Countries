@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#main_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1em;
+}
+
+#main_div > div {
+    border: solid 1px black;
+    width: 270px;
+    /* height: 10em; */
+}
+
+img{
+    max-width: 100%;
+}
